@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigaion_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_app_id"
+            android:title="Home"
+            android:icon="@drawable/ic_action_home"
+            />
+
+        <item
+            android:id="@+id/profile_app_id"
+            android:title="Profile"
+            android:icon="@drawable/ic_action_person"
+            />
+
+
+
+    </group>
+
+    <item android:title="communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/share_app_id"
+                android:title="Share"
+                android:icon="@android:drawable/ic_menu_share"
+                />
+            <item
+                android:id="@+id/aboutUs_app_id"
+                android:title="About Us"
+                android:icon="@drawable/ic_action_about"
+                />
+            <item
+                android:id="@+id/signOutId"
+                android:title="Sign Out"
+                android:icon="@drawable/ic_action_logout"
+                />
+
+
+        </menu>
+
+    </item>
+
+
+</menu>

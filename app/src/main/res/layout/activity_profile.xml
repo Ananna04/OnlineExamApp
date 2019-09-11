@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbck"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:background="@drawable/firstlayout"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Profile"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                />
+
+            <ImageView
+                android:id="@+id/profileImageId"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_marginTop="50px"
+                android:layout_marginBottom="50px"
+                android:src="@drawable/userprofile"
+                />
+
+            <RadioGroup
+                android:id="@+id/radioGroupId"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/maleId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textSize="17sp"
+                    android:layout_marginRight="20dp"
+                    />
+                <RadioButton
+                    android:id="@+id/femaleId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:textSize="17sp"
+                    />
+            </RadioGroup>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name : "
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:drawableLeft="@drawable/ic_action_person"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/profileNameId"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                />
+
+            <TextView
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email : "
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:drawableLeft="@drawable/ic_action_email"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/profileEmailId"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                />
+            <TextView
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone : "
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:drawableLeft="@drawable/ic_action_phone"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/profilePhoneId"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+
+            <Button
+                android:id="@+id/save_btn"
+                android:text="Save"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="@drawable/button_shape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:layout_marginRight="25dp"
+                />
+
+            <Button
+                android:id="@+id/button_next"
+                android:text="Next"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="@drawable/button_shape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

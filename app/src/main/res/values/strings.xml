@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OnlineExamApp</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="about_us">In our app student can login to their account and can choose his assigned exams.      It will same as of actual exam so student can do the practice of that exam for which he
+preparing.
+
+        Exam will have time limits as well as student need to finish his exam in the time frame and if time up then the exam will be automatically submitted.</string>
+
+    <color name="colorBackground">#BCAAA4</color>
+</resources>

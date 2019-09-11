@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradientbck"
+    tools:context=".LoginPage">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:paddingBottom="20dp"
+        />
+
+    <EditText
+        android:textColorHint="#ffff"
+        android:id="@+id/userId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="Username"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:drawableLeft="@drawable/ic_action_person"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:textColorHint="#ffff"
+        android:id="@+id/passwordId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/loginpage_btn"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_shape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginBottom="15dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/signInTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aren't registered yet? Sign Up"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:layout_marginRight="10dp"
+            />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/progressbarIdSignIn"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
